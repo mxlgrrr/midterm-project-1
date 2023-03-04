@@ -11,7 +11,26 @@
 
 }
 
-body{
-    background-color: #E5E5E5;
-    margin: 0;
+main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-main{
+    width: 90%;
+    height: auto;
+}
+.img-over-main{
+    width: 30vh;
+}
+
+.testimonial{
+    background-color: var(--neutral-dark);
+    background-image: url('../img/testimonial-section/orbit.png');
+    background-size: cover;
+}
+.cta{
+    background-color: var(--secondary-1);
+    height: 50vh;
+    max-height: 50vh;
 }
