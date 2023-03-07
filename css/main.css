@@ -33,4 +33,32 @@ main{
     background-color: var(--secondary-1);
     height: 50vh;
     max-height: 50vh;
+    margin-bottom: 12vh;
+}
+
+.clients{
+    margin-top:12vh;
+    margin-bottom: 12vh;
+}
+
+.projects{
+    margin-bottom: 12vh;
+}
+
+.services{
+    margin-top:12vh;
+    margin-bottom: 12vh;
+}
+
+.emoji{
+    max-width: 18vw;
+    height:auto;
+}
+.circle-image{
+    width:8vh;
+    height:8vh;
+    border-radius:50%;
+    background-image:url("../img/testimonial-section/profile.png");
+    background-size: cover;
+    background-position: 50% 25%;
 }
