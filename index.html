@@ -7,32 +7,39 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                <img src="img/logos/circle.svg" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                    </li>
-                </ul>
-                <div class="d-flex">
-                    <button class="btn btn-outline-primary" type="button">Contact Us</button>
+                <div class="logo-section">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logos/circle.svg" alt="Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                 </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="menu-section">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link primary-color" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button-section">
+                        <button class="btn button-blue" type="button">Contact Us</button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -42,10 +49,10 @@
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
                         <div class="container-left">
                             <h1 class="d-block my-3">Empower Your <br>Business With <br>Stunning Design!</h1>
-                            <h6 class="d-block my-3">Circle is a digital design and development studio. <br>We design and develop astonishing websites <br>and mobile apps.</h6>
+                            <p class="d-block intro-text shadow-text-neutral">Circle is a digital design and development studio. <br>We design and develop astonishing websites <br>and mobile apps.</p>
                             <div class="hero-buttons d-block my-3">
-                                <button>Get in touch</button>
-                                <button>See our work</button>
+                                <button class="btn button-blue shadow-button">Get in touch</button>
+                                <button class="btn button-transparent headline-text-medium shadow-text-neutral">See our work</button>
                             </div>
                         </div>
                     </div>
@@ -71,16 +78,16 @@
             </div>
         </section>
         <section class="projects">
-            <h2>Projects</h2>
+            <h3 class="subtitle-item">Projects</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
                             <img src="img/projects-section/1.jpg" class="card-img-top" alt="Proyecto 1">
                             <div class="card-body">
-                                <h5 class="card-title">Simplify</h5>
-                                <p class="card-text">UI Design & App Development</p>
-                                <a href="#" class="btn btn-primary">Learn more</a>
+                                <p class="body-intro-text">Simplify</p>
+                                <p class="body-intro-medium">UI Design & App Development</p>
+                                <a href="#" class="body-intro-primary">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -88,9 +95,9 @@
                         <div class="card">
                             <img src="img/projects-section/2.jpg" class="card-img-top" alt="Proyecto 2">
                             <div class="card-body">
-                                <h5 class="card-title">Dashcoin</h5>
-                                <p class="card-text">Web Development</p>
-                                <a href="#" class="btn btn-primary">Learn more</a>
+                                <p class="body-intro-text">Dashcoin</p>
+                                <p class="body-intro-medium">Web Development</p>
+                                <a href="#" class="body-intro-primary">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -98,9 +105,9 @@
                         <div class="card">
                             <img src="img/projects-section/3.jpg" class="card-img-top" alt="Proyecto 3">
                             <div class="card-body">
-                                <h5 class="card-title">Vectorify</h5>
-                                <p class="card-text">User Experience Design</p>
-                                <a href="#" class="btn btn-primary">Learn more</a>
+                                <p class="body-intro-text">Vectorify</p>
+                                <p class="body-intro-medium">User Experience Design</p>
+                                <a href="#" class="body-intro-primary">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -114,14 +121,14 @@
                         <img class="emoji" src="img/testimonial-section/memoji-1.png" alt="Emoji 1">
                     </div>
                     <div class="col-md-4 text-center">
-                        <h2>Hear What Our Clients Have to Say</h2>
+                        <h3 class="testimonial-title">Hear What Our Clients Have to Say</h3>
                     </div>
                     <div class="col-md-4">
                         <img class="emoji" src="img/testimonial-section/memoji-2.png" alt="Emoji 2">
                     </div>
                 </div>
                 <div class="row">
-                    <p>“Circle helped us through every stage of our startup. We really enjoyed working with you.”</p>
+                    <p class="testimonial-medium">“Circle helped us through every stage of our startup.<br> We really enjoyed working with you.”</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
@@ -132,8 +139,8 @@
 
                         </div>
                         <div>
-                            <h3>Kristin Watson</h3>
-                            <p>Booking.com</p>
+                            <p class="caption-text-1 testimonial-name">Kristin Watson</p>
+                            <p class="caption-text-2 testimonial-web">Booking.com</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -143,16 +150,16 @@
             </div>
         </section>
         <section class="services">
-            <h2>Our Services</h2>
+            <h3 class="subtitle-item">Our Services</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
                             <div><i>Icono</i></div>
                             <div class="card-body">
-                                <h5 class="card-title">User Interface Design</h5>
-                                <p class="card-text">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-                                <a href="#" class="btn btn-primary">Learn more</a>
+                                <h5 class="body-intro-text">User Interface Design</h5>
+                                <p class="body-intro-medium">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                                <a href="#" class="body-intro-primary">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -160,9 +167,9 @@
                         <div class="card">
                             <div><i>Icono</i></div>
                             <div class="card-body">
-                                <h5 class="card-title">User Experience Design</h5>
-                                <p class="card-text">Circle always focuses on delivering the best user experience to your customers.</p>
-                                <a href="#" class="btn btn-primary">Learn more</a>
+                                <h5 class="body-intro-text">User Experience Design</h5>
+                                <p class="body-intro-medium">Circle always focuses on delivering the best user experience to your customers.</p>
+                                <a href="#" class="body-intro-primary">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -170,9 +177,9 @@
                         <div class="card">
                             <div><i>Icono</i></div>
                             <div class="card-body">
-                                <h5 class="card-title">Application Development</h5>
-                                <p class="card-text">We develop high-quality mobile and web applications using the latest technology stack.</p>
-                                <a href="#" class="btn btn-primary">Learn more</a>
+                                <h5 class="body-intro-text">Application Development</h5>
+                                <p class="body-intro-medium">We develop high-quality mobile and web applications using the latest technology stack.</p>
+                                <a href="#" class="body-intro-primary">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -181,12 +188,12 @@
         </section>
         <section class="cta d-flex align-items-center justify-content-center text-center">
             <div>
-                <h2>Do you have any questions?</h2>
-                <h6>Let us help you!</h6>
+                <h3>Do you have any questions?</h3>
+                <p class="">Let us help you!</p>
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Enter your email">
                     <div class="input-group-append">
-                    <button class="btn btn-primary" type="button">Subscribe</button>
+                    <button class="btn button-blue">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -197,24 +204,24 @@
                 <div class="row">
                     <div class="col-md-6">
                         <img src="img/logos/circle.svg" alt="Logo Circle" class="mb-3">
-                        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                        <p class="headline-text-regular neutral-medium">2972 Westheimer Rd. Santa Ana, <br>Illinois 85486</p>
                     </div>
                     <div class="col-md-6">
-                        <div class="row">
+                        <div class="row headline-text-regular">
                             <div class="col-md-4">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled footer-text">
                                     <li><a href="#">Team</a></li>
                                     <li><a href="#">Press</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-4">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled footer-text">
                                     <li><a href="#">Services</a></li>
                                     <li><a href="#">Projects</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-4">
-                                <ul class="list-unstyled">
+                                <ul class="list-unstyled footer-text">
                                     <li><a href="#">About Us</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
                                 </ul>
