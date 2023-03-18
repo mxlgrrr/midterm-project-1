@@ -5,63 +5,143 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../css/main.css">
         <title>Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
-                    <img src="../img/logos/circle.svg" alt="Logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex">
-                        <button class="btn btn-outline-primary" type="button">Contact Us</button>
+                    <div class="logo-section">
+                        <a class="navbar-brand" href="#">
+                            <a href="/index.html"><img src="../img/logos/circle.svg" alt="Logo"></a>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
                     </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="menu-section">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link primary-color" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="/project-page/project.html">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="/index.html#services">Services</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button-section">
+                            <a href="/contact-us-page/contact-us.html"><button class="btn button-blue" type="button">Contact Us</button></a>
+                        </div>
                     </div>
                 </div>
             </nav>
-            <header>
-                <h2>Project</h2>
+            <header class="inner-page">
+                <h1 id="project-title">Project</h1>
+                <div class="row">
+                    <div class="col-md-6 d-inline-flex justify-content-start">
+                        <p class="body-intro-text-projects neutral-medium" id="project-description">UI Design & App Development</p>
+                    </div>
+                    <div class="col-md-6 d-inline-flex justify-content-end">
+                        <p class="intro-text-projects neutral-dark">Completed on <span class="neutral-medium" id="#project-completed_on">June 22, 2021</span></p>
+                    </div>
+                </div>
             </header>
+            <section class="project-detail">
+                <figure>
+                    <div class="detail-image">
+                    
+                    </div>
+                    <figcaption>
+                        <p id="project-content">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt quix duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
+                    </figcaption>
+                </figure>
+
+            </section>
+            <section class="other-projects">
+                <h3 class="subtitle-item">Other Projects</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card body-project">
+                                <img src="../img/projects-section/4.jpg" class="card-img-top" alt="Proyecto 1">
+                                <div class="card-body">
+                                    <p class="body-intro-text">Orbit</p>
+                                    <p class="body-intro-medium">UI Design</p>
+                                    <a href="#" class="body-intro-primary">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card body-project">
+                                <img src="../img/projects-section/5.jpg" class="card-img-top" alt="Proyecto 2">
+                                <div class="card-body">
+                                    <p class="body-intro-text">Purify</p>
+                                    <p class="body-intro-medium">UI/UX Design</p>
+                                    <a href="#" class="body-intro-primary">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card body-project">
+                                <img src="../img/projects-section/6.jpg" class="card-img-top" alt="Proyecto 3">
+                                <div class="card-body">
+                                    <p class="body-intro-text">CryptoPie</p>
+                                    <p class="body-intro-medium">App Development</p>
+                                    <a href="#" class="body-intro-primary">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="project-container">
+
+            </div>
+            <section class="cta d-flex align-items-center justify-content-center text-center">
+                <div>
+                    <h3 class="cta-title">Do you have any questions?</h3>
+                    <p class="cta-subtitle">Let us help you!</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control input-newsletter" placeholder="&#xf0e0;   Enter your email">
+                        <div class="input-group-append">
+                        <button class="btn button-blue">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
             <footer class="footer mt-auto py-3">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <img src="../img/logos/circle.svg" alt="Logo Circle" class="mb-3">
-                            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                            <p class="headline-text-regular neutral-medium">2972 Westheimer Rd. Santa Ana, <br>Illinois 85486</p>
                         </div>
                         <div class="col-md-6">
-                            <div class="row">
+                            <div class="row headline-text-regular">
                                 <div class="col-md-4">
-                                    <ul class="list-unstyled">
+                                    <ul class="list-unstyled footer-text">
                                         <li><a href="#">Team</a></li>
                                         <li><a href="#">Press</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4">
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Projects</a></li>
+                                    <ul class="list-unstyled footer-text">
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="/project-page/project.html">Projects</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4">
-                                    <ul class="list-unstyled">
+                                    <ul class="list-unstyled footer-text">
                                         <li><a href="#">About Us</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
                                     </ul>
@@ -73,5 +153,6 @@
             </footer>
         </main>
         <script src="../js/bootstrap.bundle.js"></script>
+        <script src="project.js"></script>
     </body>
 </html>
